@@ -1,9 +1,9 @@
 spring:
   datasource:
-#    url: jdbc:mysql://10.25.183.251:3306/yhjc_act?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT&useSSL=true
+#    url: jdbc:mysql://10.25.183.251:3306/yhjc_act?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT&useSSL=true&nullCatalogMeansCurrent=true
 #    username: yhjc
 #    password: yhjc@#root
-    url: jdbc:mysql://localhost:3306/activitidb?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT&useSSL=true
+    url: jdbc:mysql://localhost:3306/activitidb?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT&useSSL=true&nullCatalogMeansCurrent=true
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
