@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Date: Create In 2021/2/9
  */
 @SpringBootApplication
-@MapperScan("com.yanghu.manage.mapper")
+@MapperScan(basePackages = {"com.yanghu.manage.mapper"})
 public class ManagerAppliaction {
     public static void main(String[] args) {
         SpringApplication.run(ManagerAppliaction.class, args);
